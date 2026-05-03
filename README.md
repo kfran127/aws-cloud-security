@@ -15,7 +15,7 @@
 
 ## 📋 Overview
 
-This lab demonstrates real-world cloud security engineering skills across AWS — from designing secure VPC architecture to enforcing least-privilege IAM policies, enabling audit logging with CloudTrail, and detecting and remediating critical misconfigurations.
+This lab demonstrates real-world cloud security engineering skills across AWS, from designing secure VPC architecture to enforcing least-privilege IAM policies, enabling audit logging with CloudTrail, and detecting and remediating critical misconfigurations.
 
 > **Every finding in this lab reflects real attack vectors found in production AWS environments.**
 
@@ -72,7 +72,7 @@ This lab demonstrates real-world cloud security engineering skills across AWS �
 
 ### 1️⃣ VPC Architecture
 
-Built a custom VPC with isolated public and private subnets. Public subnet routes to the internet via IGW. Private subnet has no internet route — fully isolated by design.
+Built a custom VPC with isolated public and private subnets. Public subnet routes to the internet via IGW. Private subnet has no internet route, fully isolated by design.
 
 **Security controls applied:**
 - ✅ Network segmentation via separate subnets
